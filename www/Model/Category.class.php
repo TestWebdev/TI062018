@@ -15,5 +15,21 @@ class Category {
             }
         }
     }
-    
+    public function getIdcategory() {
+        return $this->idcategory;
+    }
+
+    public function getThecategtitle() {
+        return $this->thecategtitle;
+    }
+
+    public function setIdcategory($idcategory) {
+        $this->idcategory = $idcategory;
+    }
+
+    public function setThecategtitle($thecategtitle) {
+        $this->thecategtitle = $thecategtitle;
+    }
+
+
 }

@@ -15,5 +15,39 @@ class Author {
             }
         }
     }
+    
+    public function getIdauthor() {
+        return $this->idauthor;
+    }
+
+    public function getThelogin() {
+        return $this->thelogin;
+    }
+
+    public function getThename() {
+        return $this->thename;
+    }
+
+    public function getThepwd() {
+        return $this->thepwd;
+    }
+
+    public function setIdauthor($idauthor) {
+        $this->idauthor = $idauthor;
+    }
+
+    public function setThelogin($thelogin) {
+        $this->thelogin = $thelogin;
+    }
+
+    public function setThename($thename) {
+        $this->thename = $thename;
+    }
+
+    public function setThepwd($thepwd) {
+        $this->thepwd = $thepwd;
+    }
+
+
 
 }
