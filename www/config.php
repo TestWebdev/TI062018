@@ -3,7 +3,7 @@
 /* 
  * Configuration file
  */
-
+define("DB_TYPE","mysql");
 define("DB_HOST","localhost");
 define("DB_NAME","michael-testjuin");
 define("DB_PORT",3306);
